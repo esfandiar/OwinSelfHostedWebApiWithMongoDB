@@ -32,4 +32,5 @@ Authorization: Bearer <access_token>
 ```
 
 #### References
-This is an excellent video which briefly explains authorization in Web API: http://pluralsight.com/training/Player?author=scott-allen&name=aspdotnet-mvc5-fundamentals-m5-webapi2&mode=live&clip=0&course=aspdotnet-mvc5-fundamentals
+- This is an excellent video which briefly explains authorization in Web API: http://pluralsight.com/training/Player?author=scott-allen&name=aspdotnet-mvc5-fundamentals-m5-webapi2&mode=live&clip=0&course=aspdotnet-mvc5-fundamentals
+- This project uses MongoDB.AspNet.Identity which is available here: https://github.com/InspectorIT/MongoDB.AspNet.Identity
