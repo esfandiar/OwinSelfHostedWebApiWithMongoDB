@@ -11,7 +11,7 @@ namespace $safeprojectname$
     {
         static void Main(string[] args)
         {
-            string baseAddress = "http://localhost:45322/";
+            string baseAddress = "http://localhost:9000/";
 
             // Start OWIN host 
             using (WebApp.Start<Startup>(url: baseAddress))
