@@ -33,6 +33,7 @@ Authorization: Bearer <access_token>
 
 #### CORS
 If you're planning to access the service from a different domain you need to enable CORS.
+
 1- Install Microsoft.AspNet.WebApi.Cors:
 ```
 Install-Package Microsoft.AspNet.WebApi.Cors
@@ -43,6 +44,7 @@ var cors = new EnableCorsAttribute("*", "*", "*");
 config.EnableCors(cors);
 ```
 You can optionally enable cors using attributes for different controllers.
+
 3- Add the following line as the first line of GranResourceOwnerCredentials method in the ApplicationOAuthProvider.cs. This is separate from WebAPI and is necessary for OAuth:
 ```
 context.OwinContext.Response.Headers.Add("Access-Control-Allow-Origin", new[] { "*" });
